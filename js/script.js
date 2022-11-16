@@ -12,16 +12,18 @@
                 </li>`;
         };
         document.querySelector(".js-tasks").innerHTML = htmlString;
+        bindEvents();
+    };
 
+    const bindEvents = () => {
+        const toggleButtonElement = document.querySelectorAll(".js-toggle");
         const removeButtonsElement = document.querySelectorAll(".js-removeTask");
-
+        
         removeButtonsElement.forEach((removeButton, index) => {
             removeButton.addEventListener("click", () => {
                 removeTask(index);
             });
         });
-
-        const toggleButtonElement = document.querySelectorAll(".js-toggle");
 
         toggleButtonElement.forEach((toggleButton, index) => {
             toggleButton.addEventListener("click", () => {
