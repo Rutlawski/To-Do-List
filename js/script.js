@@ -1,36 +1,34 @@
 {
-    const tasks = [
-        {
-            content: "Zrobić listę",
-            done: false,
-        },
-        {
-            content: "Nauczyć się x-raya",
-            done: true,
-        },
-        {
-            content: "Zagrać",
-            done: false,
-        },
-    ];
+    const tasks = [];
 
     const render = () => {
         let htmlString = "";
-
         for (const task of tasks) {
-            htmlString += `
-                <li>
-                   ${task.content};
-                </li>
-                `;
+            htmlString +=
+                `<li ${task.done ? "style = \"text-decoration: line-through\"" : ""}>
+                ${task.content};
+                </li>`;
         };
-
-    document.querySelector(".js-tasks").innerHTML = htmlString;
-
+        document.querySelector(".js-tasks").innerHTML = htmlString;
     }
 
-    const init = () => {
+    const addNewTask = (addTaskElement) => {
+        tasks.push({ content: addTaskElement });
         render();
+    }
+
+    const onFormSubmit = (event) => {
+            event.preventDefault();
+            const addTaskElement = document.querySelector(".js-addTask").value.trim();
+            if (addTaskElement === "") {
+                return;
+            }
+            addNewTask(addTaskElement);
+        }
+
+    const init = () => {
+        const formElement = document.querySelector(".js-form");
+        formElement.addEventListener("submit", onFormSubmit);
     }
 
     init();
