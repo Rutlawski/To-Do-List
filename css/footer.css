@@ -1,0 +1,24 @@
+.footer {
+    border: 1px solid #ededed;
+    background-color: white;
+    margin: 400px 270px 20px 270px;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    padding: 10px;
+    min-width: 200px;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        border: 1px solid #ededed;
+        background-color: white;
+        margin: 40px;
+        text-align: center;
+        font-size: small;
+        font-style: italic;
+        padding: 10px;
+        min-width: 10px;
+        max-width: 400px;
+    }
+}
