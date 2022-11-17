@@ -14,22 +14,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
 </head>
 
 <body class="body">
     <header>
         <h1 class="header">"To-Do List"</h1>
-        <h2 class="header">Prosta aplikacja do tworzenia i śledzenia zadań</h2>
+
     </header>
     <section>
-        <form class="js-form">
-            <input required type="text" class="js-addTask"></input>
-            <button>Dodaj Zadanie!</button>
-
-            <ul class="js-tasks"></ul>
+        <h2 class="section__header">Prosta aplikacja do tworzenia i śledzenia zadań</h2>
+        <form class="js-form section__form">
+            <fieldset class="section__fieldset">
+                <input autofocus required type="text" placeholder="Dodaj nowe zadanie!" class="js-addTask"></input>
+                <button class="section__button">Dodaj Zadanie!</button>
+            </fieldset>
+            <h2 class="section__header--list">Lista zadań:</h2>
+            <fieldset class="section__fieldsetTasks">
+            <ul class="section__taskList js-tasks"></ul>
+        </fieldset>
         </form>
     </section>
+    <footer class="footer">(c) Copyright 2022 by Marek Ostrowski</footer>
 
 </body>
 

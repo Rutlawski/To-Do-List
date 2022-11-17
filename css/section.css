@@ -1,0 +1,98 @@
+.section__header {
+    background-color: whitesmoke;
+    border: 1px solid #ededed;
+    margin: 0px 40px 0px 40px;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.section__fieldset {
+    background-color: whitesmoke;
+    border: 1px solid #ededed;
+    padding: 20px;
+    margin: 0px 40px 0px 40px;
+    max-width: 1200px;
+}
+
+.section__button {
+    background-color: rgb(22, 108, 127);
+    color: #ededed;
+    padding: 5px;
+    margin: 0px 20px;
+    border: none;
+}
+
+.section__button:hover {
+    background-color: rgb(31, 147, 173);
+    cursor: pointer;
+}
+
+.section__button:active {
+    background-color: rgb(43, 192, 226);
+}
+
+.section__header--list {
+    background-color: whitesmoke;
+    border: 1px solid #ededed;
+    margin: 0px 40px 0px 40px;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.section__fieldsetTasks {
+    background-color: whitesmoke;
+    border: 1px solid #ededed;
+    padding: 10px;
+    margin: 0px 40px 0px 40px;
+    max-width: 1200px;
+    text-decoration: none;
+    border-bottom: 2px solid #ededed;
+}
+
+.section__toggleButton {
+    background-color: rgb(12, 92, 12);
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    margin: 10px 0px;
+    color: white;
+}
+
+.section__toggleButton:hover {
+    background-color: rgb(15, 114, 15);
+    cursor: pointer;
+}
+
+.section__toggleButton:active {
+    background-color: rgb(6, 194, 6);
+}
+
+.section__removeButton {
+    background-color: rgb(65, 10, 10);
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    margin: 10px 0px;
+    color: white;
+}
+
+.section__removeButton:hover {
+    background-color: rgb(121, 21, 21);
+    cursor: pointer;
+}
+
+.section__removeButton:active {
+    background-color: rgb(165, 31, 31);
+}
+
+.section__taskList {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.section__taskList--done {
+    text-decoration: line-through;
+}
