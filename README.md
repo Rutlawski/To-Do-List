@@ -11,7 +11,7 @@ Please see below a little demo, showing it's functionality:
 
 ![Demo](https://im5.ezgif.com/tmp/ezgif-5-9cd6810a2e.gif)
 
-And [HERE]() find the List itself.
+And [HERE](https://rutlawski.github.io/To-Do-List/) find the List itself.
 
 ## Languages used:
 - HTML
@@ -30,7 +30,7 @@ Lista jest prostą aplikacją, służącą do:
 Poniżej zapraszam na małe demo, pokazujące funkcjonalność:
 ![Demo](https://im5.ezgif.com/tmp/ezgif-5-9cd6810a2e.gif)
 
-[TU]() znajduje się lista.
+[TU](https://rutlawski.github.io/To-Do-List/) znajduje się lista.
 
 ## Użyte technologie:
 - HTML
