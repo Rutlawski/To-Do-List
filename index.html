@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
+    <meta property="og:image" content="https://i.ibb.co/vV87VQQ/share.png">
+    <link rel="icon" href="Zdjęcia/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -29,13 +31,14 @@
         <h2 class="section__header">Prosta aplikacja do tworzenia i śledzenia zadań</h2>
         <form class="js-form section__form">
             <fieldset class="section__fieldset">
-                <input maxlength="20" autofocus required type="text" placeholder="Dodaj nowe zadanie!" class="js-addTask"></input>
+                <input maxlength="20" autofocus required type="text" placeholder="Dodaj nowe zadanie!"
+                    class="js-addTask"></input>
                 <button class="section__button">Dodaj Zadanie!</button>
             </fieldset>
             <h2 class="section__header--list">Lista zadań:</h2>
             <fieldset class="section__fieldsetTasks">
-            <ul class="section__taskList js-tasks"></ul>
-        </fieldset>
+                <ul class="section__taskList js-tasks"></ul>
+            </fieldset>
         </form>
     </section>
     <footer class="footer">(c) Copyright 2022 by Marek Ostrowski</footer>

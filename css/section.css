@@ -3,7 +3,7 @@
     border: 1px solid #ededed;
     margin: 0px 40px 0px 40px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1800px;
 }
 
 .section__fieldset {
@@ -11,7 +11,7 @@
     border: 1px solid #ededed;
     padding: 20px;
     margin: 0px 40px 0px 40px;
-    max-width: 1200px;
+    max-width: 1800px;
 }
 
 .section__button {
@@ -47,7 +47,7 @@
     border: 1px solid #ededed;
     margin: 10px 40px 0px 40px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1800px;
 }
 
 .section__fieldsetTasks {
@@ -58,7 +58,7 @@
     border: 1px solid #ededed;
     padding: 10px;
     margin: 0px 40px 0px 40px;
-    max-width: 1200px;
+    max-width: 1800px;
     text-decoration: none;
     border-bottom: 2px solid #ededed;
 }

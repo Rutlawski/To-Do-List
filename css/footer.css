@@ -1,12 +1,13 @@
 .footer {
     border: 1px solid #ededed;
     background-color: white;
-    margin: 400px 270px 20px 270px;
+    margin: 400px 300px 20px 500px;
     text-align: center;
     font-size: small;
     font-style: italic;
     padding: 10px;
-    min-width: 200px;
+    max-width: 400px;
+    min-width: 50px;
 }
 
 @media (max-width: 767px) {
@@ -18,7 +19,7 @@
         font-size: small;
         font-style: italic;
         padding: 10px;
-        min-width: 10px;
+        min-width: 30px;
         max-width: 400px;
     }
 }
