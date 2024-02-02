@@ -7,10 +7,6 @@ The list is a simple tool, which is used to:
 - Checking tasks, which are done
 - Delete tasks
 
-Please see below a little demo, showing it's functionality:
-
-![Demo](https://im5.ezgif.com/tmp/ezgif-5-9cd6810a2e.gif)
-
 And [HERE](https://rutlawski.github.io/To-Do-List/) find the List itself.
 
 ## Languages used:
